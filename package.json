@@ -1,0 +1,29 @@
+{
+  "name": "rn-horde-unionpay",
+  "version": "1.0.0",
+  "description": "银联支付rn模块",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "rn-horde-unionpay",
+    "unionpay",
+    "银联",
+    "中国银联",
+    "银联支付",
+    "中国银联支付"
+  ],
+  "author": "caipeiming",
+  "homepage": "https://github.com/MrMessy77/rn-horde-unionpay.git",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "dependencies": {
+    "events": "^3.1.0"
+  }
+}
