@@ -1,6 +1,6 @@
 {
   "name": "rn-horde-unionpay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "银联支付rn模块",
   "main": "src/index.js",
   "scripts": {

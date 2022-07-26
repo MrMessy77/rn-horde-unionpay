@@ -41,7 +41,7 @@ public class RCTUnionpayModule extends ReactContextBaseJavaModule implements Act
     @Override
     public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
         // 处理银联手机支付控件返回的支付结果
-        if (data == null) {
+        if (requestCode != 10 || data == null) {
             return;
         }
         WritableMap response = Arguments.createMap();
